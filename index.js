@@ -57,3 +57,4 @@ const r = new Ranges();
  r.remove([10, 11]); r.print(); // Should display: [1, 8] [12, 21] 
  r.remove([15, 17]); r.print(); // Should display: [1, 8] [12, 14] [18, 21] 
  r.remove([3, 19]); r.print(); // Should display: [1, 2] [20, 21] 
+ r.add([1, 10000000]); r.print();
